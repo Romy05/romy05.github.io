@@ -1,0 +1,90 @@
+﻿.image
+{
+    height: 20%;
+    width: 20%;
+}
+  
+ul {
+    list-Style: none;
+    margin: 10px;
+    padding: 0;
+}
+a 
+{
+    text-decoration: none;
+}
+img 
+{
+    width: 50px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
+#AreYouSerious
+{
+    font-family: 'Are You Serious', cursive;
+    margin-inline-end: 80%;
+}
+#AreYouSerious > a:link
+{
+    color: #F29E3A;
+    border-width: 20px;
+    border:#F29E3A;
+    border-style: solid;
+}
+#AreYouSerious > a:visited
+{
+    color: #F29E3A;
+    border-width: 20px;
+    border:#F29E3A;
+    border-style: solid;
+}
+body
+{
+background-color: purple;
+margin-top: -12px;
+margin-left: 0;
+margin-right: 0;
+}
+nav
+{
+    background-color:white;
+    height: 100px;
+}
+#NavButtons > ul > li
+{
+height: 18.4px;
+width:auto;
+}
+#contact 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logocontact > a 
+{
+    width : 5%;
+    height : 100%;
+    flex: 10%;
+}
+#logocontact > a > img
+{
+    margin: 10px;
+    height: 100%;
+}
+#logocontact > ul
+{
+    line-height: 3em;
+    width : 100%;
+    float : left;
+    text-align: left;
+}
+#logocontact > ul > li
+{ 
+    display: inline;
+}
+
+
+
+
+
+
+
+
