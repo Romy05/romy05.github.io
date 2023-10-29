@@ -191,7 +191,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 40%;
     height: auto;
 }
-.Detailpagina
+.Detailpagina , body
 {
     color: #FFF;
     float: left;
@@ -212,7 +212,7 @@ font-family: Arial, Helvetica, sans-serif;
     float: left;
     width: 40%;
 }
-.Detailpagina > aside
+.Detailpagina > aside , body > aside
 {  
    position: absolute;
    margin-left: 55%;
@@ -405,16 +405,16 @@ padding-left: 0;
     border-radius: 10px;
     margin-bottom: 56px;
 }
-.Contactpagina > form > p1
+#p1
 {
     margin-right: 300px;
 }
-.Contactpagina > form > p2
+#p2
 {
     margin-right: 470px;
 
 }
-#Email , #Onderwerp , .Contactpagina > form > label1
+#Email , #Onderwerp , #label1
 {
     margin-right: 600px;
     margin-top: 22px;
@@ -427,13 +427,13 @@ padding-left: 0;
     margin-bottom: 10px;
     
 }
-.Contactpagina > form > label2
+#label2
 {
     margin-right: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.Contactpagina > form > label3
+#label3
 {
     margin-right: 500px;
 }
@@ -444,23 +444,23 @@ padding-left: 0;
     margin-bottom: 10px;
 }
 
-form > p1 , form > p2
+#p1 , #p2
 {
     font-family: 'Are You Serious', cursive;
     margin-bottom: 20px;
     display: block;
 }
-form > p1
+#p1
 {
     font-size: xx-large;
     color: #50BE1C;
 }
-form > p2
+#p2
 {
     font-size: x-large;
     color:#F29E3A;
 }
-form > p3
+#p3
 {
     margin-top: 10px;
     margin-bottom:20px;
