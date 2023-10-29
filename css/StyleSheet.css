@@ -145,9 +145,6 @@ nav > ul > li
   margin-top: 6em;
   height: fit-content;
   font-size: x-large;
-  border-style: solid;
-  border-width: 10px;
-  border-color:#F29E3A;
   background-color:#F29E3A;
   color: #FFF;
 }
