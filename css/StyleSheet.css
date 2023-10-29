@@ -284,14 +284,14 @@ font-family: Arial, Helvetica, sans-serif;
     object-fit: cover;
     margin-top: 30px;
 }
-#KoekjesFirstArticle 
+.KoekjesFirstArticle 
 {
     float: left;
     clear: left;
     width: 40%;
     margin-left: 100px;
 }
-#KoekjesSecondArticle
+.KoekjesSecondArticle
 {   text-indent: 20px;
     float: left;
     clear: left;
