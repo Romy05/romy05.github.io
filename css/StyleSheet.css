@@ -1,22 +1,21 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
 img {
-    height: 15%;
+    height: 15%;                                    /*Hoi Micha*/
     width: 15%;
 }
 a 
 {
     text-decoration: none;
 }
-nav > ul > li > a:link
+.Buttons > a:hover , #contact > a:hover
+{
+    background-color:#AAAAAA;
+    color:#FFF;
+}
+nav > ul > li > a:link , a:visited
 {
     color: #F29E3A;
     font-family: 'Are You serious', cursuve; 
-    font-size:x-large;
-}
-nav > ul > li > a:visited
-{
-    color: #F29E3A;
-    font-family: 'Are You Serious', cursive;
     font-size:x-large;
 }
 nav
@@ -183,6 +182,7 @@ margin-left: 0;
 margin-right: 0;
 font-family: Arial, Helvetica, sans-serif;
 }
+
 .ingredients
 {
     float: left;
@@ -297,7 +297,7 @@ font-family: Arial, Helvetica, sans-serif;
     margin-left: 100px;
 }
 #KoekjesSecondArticle
-{
+{   text-indent: 20px;
     float: left;
     clear: left;
     width: 40%;
@@ -319,11 +319,154 @@ font-family: Arial, Helvetica, sans-serif;
     width: 500px;
     object-fit: cover;
 }
+#WeetjesArticle > ul > li
+{
+    list-style: none;
+    letter-spacing: 0.1px;
+    line-height:25px;
+    word-spacing: 1px;
+}
+#WeetjesArticle > ul
+{
+ margin-left: 25%;
+ margin-right: 25%;
+ width: 50%;
+ border-style: solid;
+ border-color:#F29E3A;
+ border-width:10px;
+ color:#000;
+ padding: 20px;
+ background: #FFF;
+ border-radius: 10px;
+ z-index:9996;
+}
+#WeetjesArticle
+{
+    position: relative;
+}
+#AppeltaartWeetjes 
+{
+    z-index: 9998;
+    height: 50%;
+    width: 400px;
+    object-fit: cover;
+    float: right;
+    position: absolute;
+   float: left;
+   margin-left: 620px;
+   margin-top: 100px;
+}
+#CupcakesWeetjes
+{
+    z-index: 9997;
+    height: 50%;
+    width: 400px;
+    object-fit: cover;
+    float: left;
+   position: absolute;
+   margin-left: 770px;
+   margin-top: 200px;
+}
+#StroopwafelWeetjes
+{
+    z-index: 9999;
+    height: 50%;
+    width: 400px;
+    object-fit: cover;
+    float:left;
+    position: absolute;
+    margin-left: 420px;
+}
+#FooterWeetjes
+{
+    text-align: center;
+color: #FFF;
+padding: 15px;
+margin-top: 460px;
+margin-bottom: -6.8px;
+background-color: #000;
+max-height: 48.4px;
+float: left;
+width: 1519.2px;
+padding-right: 0;
+padding-left: 0;
+}
+.Contactpagina > form
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: auto;
+    border-style: solid;
+    border-color:#F29E3A;
+    border-width:10px;
+    color:#000;
+    padding: 20px;
+    background: #FFF;
+    border-radius: 10px;
+    margin-bottom: 56px;
+}
+.Contactpagina > form > p1
+{
+    margin-right: 300px;
+}
+.Contactpagina > form > p2
+{
+    margin-right: 470px;
 
+}
+#Email , #Onderwerp , .Contactpagina > form > label1
+{
+    margin-right: 600px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+#Vraag
+{
+    margin-right: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.Contactpagina > form > label2
+{
+    margin-right: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Contactpagina > form > label3
+{
+    margin-right: 500px;
+}
+#Button
+{
+    Margin-right: 700px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
 
-
-
-
+form > p1 , form > p2
+{
+    font-family: 'Are You Serious', cursive;
+    margin-bottom: 20px;
+    display: block;
+}
+form > p1
+{
+    font-size: xx-large;
+    color: #50BE1C;
+}
+form > p2
+{
+    font-size: x-large;
+    color:#F29E3A;
+}
+form > p3
+{
+    margin-top: 10px;
+    margin-bottom:20px;
+    display: block;
+}
 
 
 
