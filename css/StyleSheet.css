@@ -65,7 +65,6 @@ nav > ul > li
 
 .Buttons > a
 {
-    width: 303,84px;
     padding-left: 7.62%;
     padding-right: 7.62%;
     border-width: 2px;
@@ -76,7 +75,6 @@ nav > ul > li
     margin-left:0;
     margin-right: 0;
     background-color: #FFF;
-    padding-top: -10px;
 
 }
 #AreYouSerious > a 
