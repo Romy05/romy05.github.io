@@ -1,4 +1,8 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
+img {
+    height: 15%;
+    width: 15%;
+}
 a 
 {
     text-decoration: none;
@@ -14,14 +18,6 @@ nav > ul > li > a:visited
     color: #F29E3A;
     font-family: 'Are You Serious', cursive;
     font-size:x-large;
-}
-body
-{
-background-color: #9451C9;
-margin-top: -12px;
-margin-left: 0;
-margin-right: 0;
-font-family: Arial, Helvetica, sans-serif;
 }
 nav
 {
@@ -104,7 +100,7 @@ nav > ul > li
     padding-right: 10px;
     margin-bottom: 5px;
 }
-#titelhome
+#titel
 {
     text-align: center;
     background-color: #FFF;
@@ -156,18 +152,173 @@ nav > ul > li
   background-color:#F29E3A;
   color: #FFF;
 }
-
-footer
+.homepagefooter
 {
 text-align: center;
 color: #FFF;
-background-color: #000;
 padding: 15px;
 margin-top: 10px;
 margin-bottom: -6.8px;
+background-color: #000;
 }
-
-
+Footer
+{
+text-align: center;
+color: #FFF;
+padding: 15px;
+margin-top: 10px;
+margin-bottom: -6.8px;
+background-color: #000;
+max-height: 48.4px;
+float: left;
+width: 1519.2px;
+padding-right: 0;
+padding-left: 0;
+}
+body
+{
+background-color: #9451C9;
+margin-top: -12px;
+margin-left: 0;
+margin-right: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.ingredients
+{
+    float: left;
+    margin: 100px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 40%;
+    height: auto;
+}
+.Detailpagina
+{
+    color: #FFF;
+    float: left;
+}
+#CupcakeFirstArticle
+{   
+    clear: left;
+    margin: 10px;
+    margin-left: 100px;
+    float: left;
+    width: 40%;
+}
+#CupcakeSecondArticle 
+{
+    clear: left;
+    margin: 10px;
+    margin-left: 100px;
+    float: left;
+    width: 40%;
+}
+.Detailpagina > aside
+{  
+   position: absolute;
+   margin-left: 55%;
+   width: 40%;
+   border-style: solid;
+   border-color:#F29E3A;
+   border-width:10px;
+   color:#000;
+   padding: 10px;
+   background: #FFF;
+   border-radius: 10px;
+   
+}
+#beslag
+{
+    width: 20%;
+    height: 180px;
+    margin-top: 20%;
+    margin-left: 2%;
+    object-fit: cover;
+    margin-right: 2.5%;
+}
+#garecupcakes
+{
+    width: 15%;
+    height: 180px;
+    margin-top: 1%;
+    object-fit: cover; 
+}
+#eindproduct
+{
+    width: 37.5%;
+    margin: 2.5%;
+    margin-left:8%;
+}
+.head
+{
+    Font-family: 'Are You Serious', cursive;
+    font-size: xxx-large;
+    font-weight:100;
+    margin: 0;
+    
+}
+#AppeltaartFirstArticle
+{
+  float: left;
+  clear: left;
+  width: 42.5%;
+  margin: 0;
+  margin-left: 7.5%;
+  
+}
+#AppeltaartSecondArticle 
+{
+    float: left;
+    clear: left;
+    width:42.5%;
+    margin:0;
+    margin-left: 7.5%;
+}
+#AppeltaartBakvorm
+{
+    margin-top: 350px;
+    margin-left: 100px;
+    width: 20%;
+    height: auto;
+}
+#AppeltaartSlagroom
+{
+    margin-left: 148px;
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+#KoekjesFirstArticle 
+{
+    float: left;
+    clear: left;
+    width: 40%;
+    margin-left: 100px;
+}
+#KoekjesSecondArticle
+{
+    float: left;
+    clear: left;
+    width: 40%;
+    margin-left:100px;
+}
+#KoekjesNaOven
+{
+    Margin-left: 40px;
+    Margin-top: 310px;
+    height: 180px;
+    width: 500px;
+    object-fit:cover;
+}
+#VersierdeKoekjes
+{
+    margin-left: 140px;
+    margin-top: 20px;
+    height: 240px;
+    width: 500px;
+    object-fit: cover;
+}
 
 
 
