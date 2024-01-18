@@ -337,51 +337,15 @@ font-family: Arial, Helvetica, sans-serif;
  padding: 20px;
  background: #FFF;
  border-radius: 10px;
- z-index:9996;
-}
-#WeetjesArticle
-{
-    position: relative;
-}
-#AppeltaartWeetjes 
-{
-    z-index: 9998;
-    height: 50%;
-    width: 400px;
-    object-fit: cover;
-    float: right;
-    position: absolute;
-   float: left;
-   margin-left: 620px;
-   margin-top: 100px;
-}
-#CupcakesWeetjes
-{
-    z-index: 9997;
-    height: 50%;
-    width: 400px;
-    object-fit: cover;
-    float: left;
-   position: absolute;
-   margin-left: 770px;
-   margin-top: 200px;
-}
-#StroopwafelWeetjes
-{
-    z-index: 9999;
-    height: 50%;
-    width: 400px;
-    object-fit: cover;
-    float:left;
-    position: absolute;
-    margin-left: 420px;
+ 
+ 
 }
 #FooterWeetjes
 {
 text-align: center;
 color: #FFF;
 padding: 15px;
-margin-top: 460px;
+margin-top: 25%;
 background-color: #000;
 max-height: 48.4px;
 float: left;
@@ -470,6 +434,36 @@ a.text
     Color: #FFF;
     width: 158px;
 }
-
+ul#WeetjesArticle {
+    margin-bottom: 50px;
+}
+img#AppeltaartWeetjes {
+    position: absolute;
+    width: 400px;
+    height: 35%;
+    object-fit: cover;
+    float: left;
+    margin-left: 522px;
+    margin-top: 2.5%
+}
+img#CupcakesWeetjes
+{
+        position: absolute;
+        width: 400px;
+        height: 35%;
+        object-fit: cover;
+        float: left;
+        margin-left: 1000px;
+        margin-top: 2.5%
+}
+img#StroopwafelWeetjes {
+    position: absolute;
+    width: 400px;
+    height: 35%;
+    object-fit: cover;
+    float: left;
+    margin-left: 44px;
+    margin-top: 2.5%
+}
 
 
