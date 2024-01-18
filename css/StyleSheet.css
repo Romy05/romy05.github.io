@@ -214,26 +214,26 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .Detailpagina > aside , body > aside 
 {  
-   position: absolute;
-   margin-left: 55%;
-   width: 40%;
-   border-style: solid;
-   border-color:#F29E3A;
-   border-width:10px;
-   color:#000;
-   padding: 10px;
-   background: #FFF;
-   border-radius: 10px;
-   
+    position: static;
+    margin-left: 53%;
+    margin-top: 30px;
+    width: 35%;
+    border-style: solid;
+    border-color: #F29E3A;
+    border-width: 10px;
+    color: #000;
+    padding: 10px;
+    background: #FFF;
+    border-radius: 10px;
 }
 #beslag
 {
     width: 20%;
     height: 180px;
-    margin-top: 20%;
-    margin-left: 2%;
+    margin-top: 2.5%;
+    margin-left: 90px;
     object-fit: cover;
-    margin-right: 2.5%;
+    margin-right: 80px;
 }
 #garecupcakes
 {
@@ -246,7 +246,9 @@ font-family: Arial, Helvetica, sans-serif;
 {
     width: 37.5%;
     margin: 2.5%;
-    margin-left:8%;
+    margin-right: 9.5%;
+    display: block;
+    float: right;
 }
 .head
 {
@@ -465,6 +467,9 @@ img#StroopwafelWeetjes {
     object-fit: cover;
     float: left;
     margin-left: 60px;
+}
+p {
+    margin-right: 50px;
 }
 
 
