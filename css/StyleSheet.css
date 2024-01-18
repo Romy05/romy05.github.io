@@ -2,6 +2,7 @@
 img {
     height: 15%;                                    /*Hoi Micha*/
     width: 15%;
+    border-radius: 10px;
 }
 a 
 {
@@ -245,7 +246,7 @@ font-family: Arial, Helvetica, sans-serif;
 #eindproduct
 {
     width: 37.5%;
-    margin: 2.5%;
+    margin: -4%;
     margin-right: 9.5%;
     display: block;
     float: right;
