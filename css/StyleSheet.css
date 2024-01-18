@@ -261,7 +261,7 @@ font-family: Arial, Helvetica, sans-serif;
 #AppeltaartFirstArticle
 {
   float: left;
-  clear: left;
+  clear: both;
   width: 42.5%;
   margin: 0;
   margin-left: 7.5%;
@@ -269,24 +269,25 @@ font-family: Arial, Helvetica, sans-serif;
 }
 #AppeltaartSecondArticle 
 {
-    float: left;
-    clear: left;
+    float: right;
+    clear: both;
     width:42.5%;
     margin:0;
-    margin-left: 7.5%;
+    margin-right: 55px;
+    text-align: center;
 }
 #AppeltaartBakvorm
 {
-    margin-top: 350px;
-    margin-left: 100px;
-    width: 20%;
-    height: auto;
+    margin-top: 50px;
+    margin-left: 45px;
+    width: 300px;
+    height: 275px;
 }
 #AppeltaartSlagroom
 {
-    margin-left: 148px;
-    height: 200px;
-    width: 400px;
+    margin-left: 50px;
+    height: 275px;
+    width: 300px;
     object-fit: cover;
     margin-top: 30px;
 }
