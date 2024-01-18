@@ -436,6 +436,8 @@ a.text
 }
 ul#WeetjesArticle {
     margin-bottom: 50px;
+    margin-left: 50px;
+    line-height:1.25;
 }
 img#AppeltaartWeetjes {
     position: absolute;
@@ -443,8 +445,8 @@ img#AppeltaartWeetjes {
     height: 35%;
     object-fit: cover;
     float: left;
-    margin-left: 522px;
-    margin-top: 2.5%
+    margin-left: 559.5px;
+
 }
 img#CupcakesWeetjes
 {
@@ -453,8 +455,8 @@ img#CupcakesWeetjes
         height: 35%;
         object-fit: cover;
         float: left;
-        margin-left: 1000px;
-        margin-top: 2.5%
+        margin-left: 1060px;
+
 }
 img#StroopwafelWeetjes {
     position: absolute;
@@ -462,8 +464,7 @@ img#StroopwafelWeetjes {
     height: 35%;
     object-fit: cover;
     float: left;
-    margin-left: 44px;
-    margin-top: 2.5%
+    margin-left: 60px;
 }
 
 
