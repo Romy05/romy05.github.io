@@ -537,4 +537,50 @@ tr:nth-child(odd)
 {
     background-color:#F29E3A
 }
-
+#cookiesWeetjes
+{
+    Margin-top: 10%;
+    width: max-content;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 85%;
+}
+#cookiesHome{
+Margin-top: -15px;
+    width: max-content;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 85%;
+}
+#cookiesContact
+{
+    Margin-top: -90px;
+    width: max-content;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 85%;
+}
+#cookiesAppeltaart
+{
+    Margin-top: -140px;
+    width: max-content;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 85%;
+}
+#cookiesCupcakes
+{
+    margin-top: 630px;
+    width: max-content;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 85%;
+}
+#cookiesKoekjes
+{
+    margin-top: 620px;
+    width: max-content;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 85%;
+}
