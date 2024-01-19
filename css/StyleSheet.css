@@ -13,6 +13,10 @@ a
     background-color:#AAAAAA;
     color:#FFF;
 }
+.Buttons > a:active , #contact > a:active
+{
+    color:#F29E3A
+}
 nav > ul > li > a:link , a:visited
 {
     color: #F29E3A;
@@ -63,7 +67,11 @@ nav > ul > li
     height: 70px;
     width: 70px;
 }
-
+aside::first-letter
+{
+    font-size: 1.5rem;
+    color:#50BE1C;
+}
 .Buttons > a
 {
     padding-left: 7.62%;
@@ -339,29 +347,14 @@ font-family: Arial, Helvetica, sans-serif;
     object-fit: cover;
     margin-bottom: 40px;
 }
-.WeetjesArticle > ul > li
+.WeetjesArticle
 {
-    
+    width: 50%;
     letter-spacing: 0.1px;
     line-height:25px;
     word-spacing: 1px;
 }
-.WeetjesArticle > ul
-{
- margin-left: 25%;
- margin-right: 25%;
- width: 50%;
- border-style: solid;
- border-color:#F29E3A;
- border-width:10px;
- color:#000;
- padding: 20px;
- background: #FFF;
- border-radius: 10px;
 
- 
- 
-}
 .FooterContact
 {
 margin-top: 15px;
@@ -520,5 +513,28 @@ header > p {
     text-align: center;
     font-family: cursive;
 }
-
+.tabel
+{
+    margin-right: 200px;
+    float: right;
+    margin-top: -370px;
+    width:20%;
+}
+.tabel > header
+{
+    margin-bottom: 40px;
+}
+.tabel > table
+{
+    margin-left: 35%;
+   
+}
+tr:nth-child(even)
+{
+    background-color:#50BE1C
+}
+tr:nth-child(odd)
+{
+    background-color:#F29E3A
+}
 
