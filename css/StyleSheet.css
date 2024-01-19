@@ -1,6 +1,6 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
 img {
-    height: 15%;                                    /*Hoi Micha*/
+    height: 15%;  /*Hoi Micha*/
     width: 15%;
     border-radius: 10px;
 }
@@ -360,13 +360,27 @@ margin-top: 15px;
 text-align: center;
 color: #FFF;
 padding: 15px;
-margin-top: 25%;
+margin-top: 30%;
 background-color: #000;
 max-height: 48.4px;
 float: left;
 width: 1519.2px;
 padding-right: 0;
 padding-left: 0;
+}
+figcaption 
+{
+    margin-top: 290px;
+    position: absolute;
+    margin-left: 530px;
+}
+figcaption#Stroopwafel {
+    margin-left: 50px;
+}
+figcaption#Cupcakes
+{
+    margin-left: 1030px;
+    width:350px;
 }
 .Contactpagina > form
 {
@@ -460,7 +474,7 @@ img#AppeltaartWeetjes {
     height: 35%;
     object-fit: cover;
     float: left;
-    margin-left: 559.5px;
+    margin-left: 510px;
 
 }
 img#CupcakesWeetjes
@@ -470,7 +484,7 @@ img#CupcakesWeetjes
         height: 35%;
         object-fit: cover;
         float: left;
-        margin-left: 1060px;
+        margin-left: 990px;
 
 }
 img#StroopwafelWeetjes {
@@ -479,7 +493,7 @@ img#StroopwafelWeetjes {
     height: 35%;
     object-fit: cover;
     float: left;
-    margin-left: 60px;
+    margin-left:40px;
 }
 p {
     margin-right: 50px;
