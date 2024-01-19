@@ -122,11 +122,6 @@ aside::first-letter
     letter-spacing: 1px;
     line-height: 3rem;
 }
-.WeetjesArticle > strong 
-{
-text-indent: 1em;
-list-style: none;
-}
 .flex
 {
     display: flex;
@@ -477,6 +472,11 @@ ul.WeetjesArticle {
     margin-bottom: 50px;
     margin-left: 50px;
     line-height:1.25;
+    list-style: none;
+}
+.feitje
+{
+    text-indent: 1.5em;
 }
 img#AppeltaartWeetjes {
     position: absolute;
