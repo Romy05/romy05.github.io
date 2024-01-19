@@ -215,7 +215,7 @@ margin-top: -12px;
 margin-left: 0;
 margin-right: 0;
 font-family: Arial, Helvetica, sans-serif;
-
+width: 100%;
 }
 .ingredients
 {
@@ -384,7 +384,7 @@ margin-top: 30%;
 background-color: #000;
 max-height: 48.4px;
 float: left;
-width: 1519.2px;
+width: 100%;
 padding-right: 0;
 padding-left: 0;
 }
