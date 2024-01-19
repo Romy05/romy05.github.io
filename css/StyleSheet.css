@@ -24,6 +24,10 @@ a
 {
     color:#F29E3A
 }
+.Buttons > a
+{
+    width: 4%;
+}
 nav > ul > li > a:link , a:visited
 {
     color: #F29E3A;
