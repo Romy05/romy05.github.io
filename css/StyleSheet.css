@@ -1,4 +1,11 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
+@media screen and (max-width: 768px)
+{
+    body
+    {
+    background-color:#50BE1C
+    }
+}
 img {
     height: 15%;  /*Hoi Micha*/
     width: 15%;
@@ -529,13 +536,17 @@ header > p {
     margin-left: 35%;
    
 }
+tr
+{
+    color:#000
+}
 tr:nth-child(even)
 {
-    background-color:#50BE1C
+    background-color:#CFF
 }
 tr:nth-child(odd)
 {
-    background-color:#F29E3A
+    background-color:#FFF
 }
 #cookiesWeetjes
 {
